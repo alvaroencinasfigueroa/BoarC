@@ -1,0 +1,114 @@
+  #cuerpo{
+    background: rgb(92, 85, 89);
+  }
+  .paleta{
+    top: 70%;
+    margin-top: 70px;
+  }
+  #canvas{
+    border: 10px solid greenyellow;
+    background: white;
+  }
+  @keyframes animacion4{
+  from {background-color: yellowgreen;}
+  to {background-color: whitesmoke;}
+  }
+
+  #circulo{
+    margin-left: 1180px;
+    position: absolute;
+    top: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: greenyellow;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    animation-name: animacion4;
+    animation-duration: 4s;
+    
+  }
+  #circulo:hover{
+      background-color: white
+  }
+  @keyframes animacion3{
+    from {background-color: yellowgreen;}
+    to {background-color: whitesmoke;}
+  }
+  
+  #rectangulo{
+    margin-left: 1180px;
+    position: absolute;
+    top: 20%;
+    -ms-transform: translateY(-50%);
+    transform: translateY();
+    background-color: yellowgreen;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    animation-name: animacion3;
+    animation-duration: 4s;
+  }
+  #rectangulo:hover{
+    background-color: white;
+  }
+  @keyframes animacion2{
+    from {background-color: yellowgreen;}
+    to {background-color: whitesmoke;}
+  }
+  #linea{
+    margin-left: 1180px;
+    position: absolute;
+    top: 33%;
+    -ms-transform: translateY(-50%);
+    transform: translateY();
+    background-color: yellowgreen;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    animation-name: animacion2;
+    animation-duration: 4s;
+  }
+  #linea:hover{
+  background-color: white;
+  }
+  @keyframes animacion1{
+  from {background-color: yellowgreen;}
+  to {background-color: whitesmoke;}
+  }
+  #capturar_imagen{
+    margin-left: 1180px;
+    position: absolute;
+    top: 46%;
+    -ms-transform: translateY(-50%);
+    transform: translateY();
+    background-color: yellowgreen;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    animation-name: animacion1;
+    animation-duration: 4s;
+  }
+  #capturar_imagen:hover{
+  background-color: white;
+  }
+  @keyframes animacion5{
+  from {background-color: yellowgreen;}
+  to {background-color: whitesmoke;}
+  }
+  #borrar{
+  margin-left: 1180px;
+  position: absolute;
+  top: 59%;
+  -ms-transform: translateY(-50%);
+  transform: translateY();
+  background-color: yellowgreen;
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  animation-name: animacion5;
+  animation-duration: 4s;
+  }
+  #borrar:hover{
+  background-color: white; 
+  }

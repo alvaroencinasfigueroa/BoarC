@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilos.css">
+        <title>PIZARRA_CLIENTE</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    </head>
+    <body id="cuerpo">
+        <canvas id="canvas" width="1130" height="550"></canvas>
+        
+        <input class="paleta" type="color" id="color" oninput="fColor(this.value);">PALETA DE COLORES</input>
+        
+        
+        <input type="range" id="grueso" oninput="fGrueso(this.value);" min="1" max="5" value="1">ELEGIR GROSOR DEL PINCEL</input>
+        
+        <div class="circulo">
+                <input type="button" id="circulo" value="DIBUJAR CIRCULO "></input>
+        </div>
+        
+        <div class="rectangulo">
+            <input type="button" id="rectangulo" value="DIBUJAR RECTANGULO "></input>
+        </div>
+
+        <div class="linea">
+            <input type="button" id="linea" value="DIBUJAR LINEA " oninput="dibujarLinea(this.value);"></input>
+        </div>
+
+        <div class="capturar_imagen">
+            <input type="button" id="capturar_imagen" value=" CAPTURAR IMAGEN"></input>
+        </div>
+
+        <div class="borrar">
+            <input type="button" id="borrar" value="BORRAR"></input>
+        </div>
+
+        <div class="canvas_capturado" style="border: 1px solid greenyellow">
+
+        </div>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
+
+        <script src="pizarra.js"></script>
+    </body>
+</html>
